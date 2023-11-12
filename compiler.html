@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <!-- Header -->
+   <header>
+       <!-- Nav -->
+       <div class="nav container">
+       <!-- Logo -->
+       <a href="index.html" class="logo">My<span>Work</span></a> 
+       <a href="compiler.html" class="post-title"></a>
+
+    </div>
+
+    </header>
+    <!-- Post Content -->
+    <section class="post-header">
+        <div class="header-content post-container">
+            <!-- Back To Home -->
+            <a href="index.html" class="back-home">Kembali Ke Menu</a>
+            <!-- Title -->
+            <h1 class="header-title">Compiler, Interpreuter, Linker</h1>
+            <!-- Post Image -->
+            <img src="Image/Pengertian-Compiler.jpg" alt="" class="header-img">
+        </div>
+    </section>
+
+    <!-- Posts -->
+    <section class="post-content post-container">
+        <p class="post-text"></p>• "translator" biasanya merujuk kepada program atau perangkat lunak yang mengubah kode sumber dari satu bahasa pemrograman ke bahasa pemrograman lain.<br>
+        • Ada 2 jenis translator utama pada bahasa pemrograman, yaitu Compiler dan Interpreter.<br>
+        <h2 class="sub-heading">Compiler</h2>
+        <p class="post-text"></p>• Compiler adalah jenis translator yang menerjemahkan seluruh kode sumber dalam
+        satu kali proses ke dalam bahasa mesin atau kode antara (intermediate code).<br>
+        • Compiler menghasilkan file biner atau kode antara yang dapat dieksekusi secara
+        langsung oleh komputer.<br>
+        • Contoh bahasa yang menggunakan compiler adalah C, C++, dan Ada.</p>
+        <h2 class="sub-heading">Interpreter</h2>
+        <p class="post-text"></p>• Interpreter adalah jenis translator yang membaca dan mengeksekusi kode sumber baris demi baris saat program berjalan.<br>
+        • Contoh bahasa yang menggunakan interpreter adalah Python, JavaScript, dan Ruby.</p>
+        <h2 class="sub-heading">Linker</h2>
+        <p class="post-text"></p>• Tugas dari linker adalah menggabungkan berbagai library
+        external dengan object file untuk menghasilkan sebuah
+        program.<br>
+        • kode program C biasanya butuh file library external. Sebagai
+        contoh, untuk menampilkan teks ke layar dalam bahasa C
+        perintahnya adalah printf(“Hello World”). Untuk bisa
+        memproses perintah printf(), C butuh sebuah file external,
+        yakni stdio.h<br>
+        • Linker-lah yang akan
+        menggabungkan hello_world.obj dengan stdio.h. Hasil
+        akhirnya berupa sebuah program berextension *.exe. Karena
+        file source code saya buat sebagai hello_world.c, file
+        programnya akan bernama hello_world.exe. Dengan men-
+        double-klik file hello_world.exe, program kita sudah langsung
+        berjalan.</p>
+        <h2 class="sub-heading">Perbedaan Compiler dan Interpreter</h2>
+        <p class="post-text"></p>1. <b>Compiler</b>menyimpan Bahasa Mesin dalam bentuk Kode Mesin pada disk.<br>
+        <b>Interpreter</b> tidak menyimpan Bahasa Mesin.<br>
+        2. <b>Compiler:</b> Kode yang dikompilasi berjalan lebih cepat daripada Interpreter.<br>
+        <b>Interpreter:</b> Kode yang ditafsirkan berjalan lebih lambat dari Compiler.<br>
+        3. <b>Compiler:</b> Model Linking-Loading adalah model kerja dasar dari Compiler.<br>
+        <b>Interpreter:</b> Model Interpretasi adalah model kerja dasar Interpreter.<br>
+        4. <b>Compiler:</b> Kompiler menghasilkan output dalam bentuk (.exe).<br>
+        <b>Interpreter:</b> Interpreter tidak menghasilkan output apa pun.<br>
+        5. <b>Compiler:</b> Setiap perubahan dalam program sumber setelah kompilasi memerlukan kompilasi ulang seluruh kode.<br>
+        <b>Interpreter:</b> Setiap perubahan dalam program sumber selama terjemahan tidak memerlukan terjemahan ulang seluruh kode.<br>
+        6. <b>Compiler:</b> Kesalahan ditampilkan di Compiler setelah Compiling bersama-sama pada waktu saat ini<br>
+        <b>Interpreter:</b> Kesalahan ditampilkan di setiap baris.</p>
+        
+    </section> 
+    <!-- Share -->
+    <div class="share post-container">
+        <span class="share-title">Bagikan Artikel Ini</span>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+<!-- Footer -->
+<div class="footer container">
+    <p>&#169; Fadhila Zakiatuz Zahro</p>
+    <div class="social">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div>
+</div>
+
+<!-- JQuery Link -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" 
+integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+crossorigin="anonymous"></script>
+<!-- Link To JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
